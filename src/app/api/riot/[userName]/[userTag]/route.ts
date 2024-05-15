@@ -20,13 +20,13 @@ export async function GET(req: NextRequest, context: any) {
         const summonerData = await axios.get(
             `${API_URL_BY_ID}/${userData.data.id}?api_key=${process.env.API_KEY}`
         );
-		if(!summonerData.data){
-			return NextResponse.json({
-				userName,
-				userTag,
-				tier: "No information aviable",
-			})
-		}
+        if (!summonerData.data) {
+            return NextResponse.json({
+                userName,
+                userTag,
+                tier: "No information aviable",
+            });
+        }
         const result = {
             userName: data.gameName,
             userTag: data.tagLine,
