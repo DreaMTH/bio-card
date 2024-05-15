@@ -1,0 +1,79 @@
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 0.4rem hsla(250, 80%, 70%, 0.7);
+    padding: 0 10px;
+}
+.wr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    margin: 0 auto;
+    gap: 10px;
+    max-width: 350px;
+}
+.wr h3 {
+    margin: 0;
+    padding: 0;
+}
+.default {
+    background-color: blue;
+    color: goldenrod;
+    text-shadow: 0 0 0.2rem #242424;
+}
+.emerald {
+    color: #fff;
+    text-shadow: 0 0 0.2rem #242424;
+    background-color: rgb(51, 147, 0);
+}
+.iron {
+    background-color: #483a38;
+    color: #fff;
+    text-shadow: 0 0 0.2rem #242424;
+}
+.bronze {
+    background-color: #65443d;
+    color: #fff;
+    text-shadow: 0 0 0.2rem #242424;
+}
+.silver {
+    background-color: #606f80;
+    color: #242424;
+    text-shadow: 0 0 0.2rem #fff;
+}
+.gold {
+    background-color: goldenrod;
+    color: #242424;
+    text-shadow: 0 0 0.2rem #fff;
+}
+.platinum {
+    background-color: #176373;
+    color: #242424;
+    text-shadow: 0 0 0.2rem #fff;
+}
+.diamond {
+    background-color: #316cba;
+    color: #242424;
+    text-shadow: 0 0 0.2rem #fff;
+}
+.master {
+    background-color: #ee4dfb;
+    color: #242424;
+    text-shadow: 0 0 0.2rem #fff;
+}
+.grandmaster {
+    background-color: #b43829;
+    color: #fff;
+    text-shadow: 0 0 0.2rem #242424;
+}
+.challenger {
+    background-color: #e9ffff;
+    color: #242424;
+    text-shadow: 0 0 0.2rem #fff;
+}
